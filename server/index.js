@@ -30,7 +30,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "https://snappysnap.netlify.app/",
+    origin: "https://snappysnap.netlify.app",
     credentials: true,
   },
 });
